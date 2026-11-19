@@ -700,12 +700,12 @@
         1
       ],
       "penalties": null,
-      "updated": "2026-11-19T22:27:29.452855+00:00",
+      "updated": "2026-11-19T22:28:21.554220+00:00",
       "streamUrl": "https://naianetwork.com/",
       "scorers": [],
       "gameTime": null,
-      "overtime": false,
-      "source": "NAIA national scoreboard"
+      "overtime": true,
+      "source": "manual"
     },
     "S2": {
       "id": "S2",
@@ -734,12 +734,20 @@
       "site": 2,
       "date": "2026-11-19",
       "start": "2026-11-19T13:00:00-06:00",
-      "score": null,
-      "penalties": null,
-      "updated": null,
+      "score": [
+        1,
+        1
+      ],
+      "penalties": [
+        4,
+        5
+      ],
+      "updated": "2026-11-19T22:28:21.642036+00:00",
       "streamUrl": "https://naianetwork.com/",
       "scorers": [],
-      "gameTime": null
+      "gameTime": null,
+      "overtime": true,
+      "source": "manual"
     },
     "S3": {
       "id": "S3",
@@ -836,12 +844,20 @@
       "site": 5,
       "date": "2026-11-19",
       "start": "2026-11-19T12:30:00-06:00",
-      "score": null,
-      "penalties": null,
-      "updated": null,
+      "score": [
+        2,
+        2
+      ],
+      "penalties": [
+        3,
+        5
+      ],
+      "updated": "2026-11-19T22:28:21.701338+00:00",
       "streamUrl": "https://naianetwork.com/",
       "scorers": [],
-      "gameTime": null
+      "gameTime": null,
+      "overtime": true,
+      "source": "manual"
     },
     "S6": {
       "id": "S6",

@@ -181,7 +181,7 @@ function resultNote(g) {
       '<span class="badge">' +
       esc(data.teams[resolved(g.id)]?.name) +
       " won on penalties, " +
-      g.penalties.join("–") +
+      [Math.max(...g.penalties), Math.min(...g.penalties)].join("–") +
       "</span>"
     );
   return g.overtime ? '<span class="badge">After overtime</span>' : "";
