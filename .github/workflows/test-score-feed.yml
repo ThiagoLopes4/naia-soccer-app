@@ -1,0 +1,36 @@
+name: Test score feed
+on:
+  workflow_dispatch:
+  push:
+    paths: ['.github/workflows/test-score-feed.yml']
+permissions: {}
+jobs:
+  rss:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - name: Check PrestoSports
+        run: |
+          python3 - <<'PY'
+          import os
+          import xml.etree.ElementTree as ET
+          from urllib.request import Request, urlopen
+          from urllib.error import HTTPError
+          url = 'https://naiastats.prestosports.com/sports/msoc/composite?print=rss&view=2'
+          request = Request(url, headers={'Accept':'application/rss+xml'})
+          ok = False
+          try:
+              with urlopen(request, timeout=30) as response:
+                  msg = f'HTTP {response.status}'
+                  root = ET.fromstring(response.read())
+                  ok = root.tag == 'rss' and root.find('channel') is not None
+                  msg += f' | Valid RSS channel | {len(root.findall("channel/item"))} items' if ok else ' | Invalid RSS'
+          except HTTPError as e:
+              msg = f'HTTP {e.code} | {e.reason}'
+          except (ET.ParseError, OSError) as e:
+              msg = locals().get('msg','Feed check') + f' | {e}'
+          print(msg)
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as f:
+              print(msg, file=f)
+          raise SystemExit(0 if ok else 1)
+          PY
