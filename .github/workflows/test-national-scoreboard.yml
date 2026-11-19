@@ -1,0 +1,20 @@
+name: Test NAIA national scoreboard
+on:
+  push:
+    paths: [.github/workflows/test-national-scoreboard.yml]
+  workflow_dispatch:
+permissions: {}
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check national scores
+        run: |
+          set -eo pipefail
+          for day in 11 19 21; do
+            curl -fsSG --max-time 30 https://www.naia.org/wp-json/naia-live-scoreboard/v1/events --data-urlencode "sport=Men's Soccer" -d "day=2026-11-$day" -d page=1 -d per_page=16 > "$day.json"
+            jq -er '"\(.day) | \(.total) games"' "$day.json" >> "$GITHUB_STEP_SUMMARY"
+          done
+          jq -e 'any(.events[]; .status=="Final" and ([.team1_score,.team2_score]|all(tonumber>=0)))' 11.json
+          jq -e '.events|length>0' 19.json
+          jq -e 'any(.events[]; ([.team1_name,.team2_name]|sort)==(["LSU Alexandria","MidAmerica Nazarene"]|sort))' 21.json
