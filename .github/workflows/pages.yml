@@ -1,0 +1,76 @@
+name: Tournament scores and Pages
+on:
+  push:
+    branches: [main]
+    paths: ["site/**", ".github/workflows/pages.yml"]
+  workflow_dispatch:
+  schedule:
+    - cron: "*/5 * 19-22,30 11 *"
+    - cron: "*/5 * 1-8 12 *"
+concurrency:
+  group: tournament-pages
+  cancel-in-progress: false
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+jobs:
+  site:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Check scheduled tournament window
+        id: window
+        run: |
+          case "$(TZ=America/Chicago date +%Y-%m-%d)" in
+            2026-11-19|2026-11-20|2026-11-21|2026-11-30|2026-12-0[1-7]) echo 'active=yes' >> "$GITHUB_OUTPUT" ;;
+          esac
+      - name: Fetch and validate scores
+        if: github.event_name != 'push' && steps.window.outputs.active == 'yes'
+        env:
+          SCORE_FEED_URL: ${{ vars.SCORE_FEED_URL }}
+        run: python3 scripts/scores.py
+      - name: Retain manual review queue
+        if: always() && hashFiles('score-review.txt') != ''
+        uses: actions/upload-artifact@v4
+        with:
+          name: score-review
+          path: score-review.txt
+      - name: Save validated scores
+        id: scores
+        run: |
+          if ! git diff --quiet -- site/data/bracket-2026.json; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git add site/data/bracket-2026.json
+            git commit -m 'Update validated tournament finals'
+            git push origin HEAD:main
+            echo 'changed=yes' >> "$GITHUB_OUTPUT"
+          fi
+      - name: Enable cookie-free page counts
+        env:
+          COUNTER: ${{ vars.GOATCOUNTER_CODE }}
+        run: |
+          python3 - <<'PY'
+          import os, re
+          from pathlib import Path
+          code = os.environ.get('COUNTER', '')
+          if re.fullmatch(r'[a-z0-9-]+', code):
+              page = Path('site/index.html')
+              tag = f'<script>window.goatcounter={{no_onload:true}}</script><script async data-goatcounter="https://{code}.goatcounter.com/count" src="https://gc.zgo.at/count.js" onload="track()"></script>'
+              page.write_text(page.read_text().replace('</body>',tag+'</body>'))
+          PY
+      - uses: actions/configure-pages@v5
+        if: github.event_name != 'schedule' || steps.scores.outputs.changed == 'yes'
+      - uses: actions/upload-pages-artifact@v3
+        if: github.event_name != 'schedule' || steps.scores.outputs.changed == 'yes'
+        with:
+          path: site
+      - uses: actions/deploy-pages@v4
+        id: deployment
+        if: github.event_name != 'schedule' || steps.scores.outputs.changed == 'yes'

@@ -1,0 +1,1318 @@
+{
+  "teams": {
+    "bellevue": {
+      "team": "Bellevue (Neb.)",
+      "seed": 14,
+      "conference": "Continental",
+      "file": "logos/bellevue.png",
+      "id": "bellevue",
+      "name": "Bellevue",
+      "wordmarkFile": "logos/bellevue-wordmark.png",
+      "priorLogo": {
+        "source_url": "https://bubruins.com/images/setup/Primary_Logo_-_.5x.png",
+        "format": "Transparent PNG, direct, 350x400",
+        "notes": "Bruins. Purple bear head + gold 'BRUINS'. PrestoSports athletics site header logo.",
+        "verified": true
+      },
+      "logoCatalog": "10-team-logos-catalog.docx"
+    },
+    "benedictine-kan": {
+      "team": "Benedictine (Kan.)",
+      "seed": null,
+      "conference": "Heart",
+      "file": "logos/benedictine-kan.png",
+      "id": "benedictine-kan",
+      "name": "Benedictine",
+      "wordmarkFile": "logos/benedictine-kan-wordmark.png",
+      "priorLogo": {
+        "source_url": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/ravenathletics.com/images/responsive_2025/logo_main.svg",
+        "format": "Converted from SVG, 672x876",
+        "notes": "Ravens. Raven mascot in red sweater with 'B'+cross. Atchison, Kan. (ravenathletics.com) — not Benedictine Mesa (Ariz.).",
+        "verified": true
+      },
+      "logoCatalog": "10-team-logos-catalog.docx"
+    },
+    "bethel-ind": {
+      "team": "Bethel (Ind.)",
+      "seed": null,
+      "conference": "Crossroads",
+      "file": "logos/bethel-ind.png",
+      "id": "bethel-ind",
+      "name": "Bethel (Ind.)",
+      "wordmarkFile": "logos/bethel-ind-wordmark.png",
+      "priorLogo": {
+        "source_url": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/bethelind.sidearmsports.com/responsive_2022/images/svgs/logo_main-2.svg",
+        "format": "Converted from SVG, 705x635",
+        "notes": "Pilots. 'BETHEL PILOTS' with pilot at ship's wheel. Mishawaka, Ind. (bupilots.com) — distinct from Bethel (Tenn.).",
+        "verified": true
+      },
+      "logoCatalog": "10-team-logos-catalog.docx"
+    },
+    "bethel-tenn": {
+      "team": "Bethel (Tenn.)",
+      "seed": null,
+      "conference": "Mid-South",
+      "file": "logos/bethel-tenn.png",
+      "id": "bethel-tenn",
+      "name": "Bethel (Tenn.)",
+      "wordmarkFile": "logos/bethel-tenn-wordmark.png",
+      "priorLogo": {
+        "source_url": "https://bethelathletics.com/images/logos/site/site.png",
+        "format": "Converted from WebP to PNG, 200x200",
+        "notes": "Wildcats. Purple wildcat head. McKenzie, Tenn. (bethelathletics.com; bethelwildcats.com does not resolve) — distinct from Bethel (Ind.). Low resolution: 200px is the largest official version on the site.",
+        "verified": true
+      },
+      "logoCatalog": "10-team-logos-catalog.docx"
+    },
+    "columbia-mo": {
+      "team": "Columbia (Mo.)",
+      "seed": null,
+      "conference": "American Midwest",
+      "file": "logos/columbia-mo.png",
+      "source_url": "https://columbiacougars.com/images/logos/site/site.png",
+      "verified": true,
+      "format": "Converted from WebP to PNG, 200x200",
+      "notes": "Cougars. Navy/gray 'CC' monogram. Columbia, Mo. (columbiacougars.com), AMC — not Columbia University (NY). Low resolution: 200px is the largest official version on the site.",
+      "id": "columbia-mo",
+      "name": "Columbia",
+      "logoCatalog": "10-team-logos-catalog.docx"
+    },
+    "concordia-neb": {
+      "team": "Concordia (Neb.)",
+      "seed": null,
+      "conference": "GPAC",
+      "file": "logos/concordia-neb.png",
+      "id": "concordia-neb",
+      "name": "Concordia",
+      "wordmarkFile": "logos/concordia-neb-wordmark.png",
+      "priorLogo": {
+        "source_url": "https://www.cune.edu/download_file/view/33818/5118",
+        "format": "Transparent PNG, 689x556, cropped from official brand-guide PDF",
+        "notes": "Bulldogs. Bulldog gripping a 'C' swoosh over 'CONCORDIA / UNIVERSITY / NEBRASKA'. Source is the official CUNE brand guide PDF (p. 5, 'Athletics Logos — Bulldog Logo'), which designates it the primary athletics logo; the athletics site header only carries the university wordmark. Cropped at 300 dpi, background made transparent, no pixels redrawn. Seward, Neb. — not Concordia Ann Arbor/Chicago/Irvine.",
+        "verified": true
+      },
+      "logoCatalog": "10-team-logos-catalog.docx"
+    },
+    "cumberland-tenn": {
+      "team": "Cumberland (Tenn.)",
+      "seed": 6,
+      "conference": "Mid-South",
+      "file": "logos/cumberland-tenn.png",
+      "id": "cumberland-tenn",
+      "name": "Cumberland (Tenn.)",
+      "wordmarkFile": "logos/cumberland-tenn-wordmark.png",
+      "priorLogo": {
+        "source_url": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/cumberlandu.sidearmsports.com/images/responsive_2023/main_logo.svg",
+        "format": "Converted from SVG, 1000x648",
+        "notes": "Phoenix. 'CUMBERLAND PHOENIX' with phoenix bird. Lebanon, Tenn. (gocumberlandathletics.com) — NOT University of the Cumberlands (Ky., Patriots).",
+        "verified": true
+      },
+      "logoCatalog": "10-team-logos-catalog.docx"
+    },
+    "dalton-state": {
+      "team": "Dalton State (Ga.)",
+      "seed": null,
+      "conference": "Southern States",
+      "file": "logos/dalton-state.png",
+      "source_url": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/daltonstate.sidearmsports.com/responsive_2022/images/svgs/logo_main.svg",
+      "verified": true,
+      "format": "Converted from SVG, 528x456",
+      "notes": "Roadrunners. 'DS' monogram with roadrunner head. Dalton, Ga. (dsroadrunners.com).",
+      "id": "dalton-state",
+      "name": "Dalton State",
+      "logoCatalog": "10-team-logos-catalog.docx"
+    },
+    "dordt": {
+      "team": "Dordt (Iowa)",
+      "seed": null,
+      "conference": "GPAC",
+      "file": "logos/dordt.png",
+      "source_url": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/dordtiowa.sidearmsports.com/responsive_2022/logo-main.svg",
+      "verified": true,
+      "format": "Converted from SVG, 1008x1008",
+      "notes": "Defenders. Defender knight with sword/shield. Sioux Center, Iowa (godordt.com).",
+      "id": "dordt",
+      "name": "Dordt",
+      "logoCatalog": "10-team-logos-catalog.docx"
+    },
+    "eastern-oregon": {
+      "team": "Eastern Oregon",
+      "seed": null,
+      "conference": "Cascade",
+      "file": "logos/eastern-oregon.png",
+      "source_url": "https://eousports.com/images/logos/site/site.png",
+      "verified": true,
+      "format": "Converted from WebP to PNG, 200x200",
+      "notes": "Mountaineers. Navy/gold interlocking 'EOU' monogram. La Grande, Ore. Low resolution: 200px is the largest official version on the site.",
+      "id": "eastern-oregon",
+      "name": "Eastern Oregon",
+      "logoCatalog": "10-team-logos-catalog.docx"
+    },
+    "faulkner": {
+      "team": "Faulkner (Ala.)",
+      "seed": 3,
+      "conference": "Southern States",
+      "file": "logos/faulkner.png",
+      "id": "faulkner",
+      "name": "Faulkner",
+      "wordmarkFile": "logos/faulkner-wordmark.png",
+      "priorLogo": {
+        "source_url": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/faulkneruala.sidearmsports.com/images/responsive_2020/logo_main.svg",
+        "format": "Converted from SVG, 1000x663",
+        "notes": "Eagles. Eagle head + 'FAULKNER UNIVERSITY', blue/black/white. Montgomery, Ala. (faulknereagles.com).",
+        "verified": true
+      },
+      "logoCatalog": "10-team-logos-catalog.docx"
+    },
+    "friends": {
+      "team": "Friends (Kan.)",
+      "seed": null,
+      "conference": "KCAC",
+      "file": "logos/friends.png",
+      "source_url": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/friendsu.sidearmsports.com/images/responsive_2023/logo_main.svg",
+      "verified": true,
+      "format": "Converted from SVG, 1000x925",
+      "notes": "Falcons. Maroon falcon mascot with 'FRIENDS' on chest. Wichita, Kan. (friendsathletics.com), KCAC.",
+      "id": "friends",
+      "name": "Friends",
+      "logoCatalog": "10-team-logos-catalog.docx"
+    },
+    "georgia-gwinnett": {
+      "team": "Georgia Gwinnett",
+      "seed": null,
+      "conference": "Continental",
+      "file": "logos/georgia-gwinnett.png",
+      "source_url": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/gagwinnett.sidearmsports.com/images/responsive_2024/nav_logo.svg",
+      "verified": true,
+      "format": "Converted from SVG, 1000x1000",
+      "notes": "Grizzlies. Winged 'G' in green/gold. Lawrenceville, Ga. (ggcathletics.com). Site has no logo_main.svg — nav_logo.svg is its primary mark. Not Georgia College / Georgia State.",
+      "id": "georgia-gwinnett",
+      "name": "Georgia Gwinnett",
+      "logoCatalog": "10-team-logos-catalog.docx"
+    },
+    "grand-view": {
+      "team": "Grand View (Iowa)",
+      "seed": 13,
+      "conference": "Heart",
+      "file": "logos/grand-view.png",
+      "id": "grand-view",
+      "name": "Grand View",
+      "wordmarkFile": "logos/grand-view-wordmark.png",
+      "priorLogo": {
+        "source_url": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/gviewu.sidearmsports.com/images/responsive_2023/logo_main.svg",
+        "format": "Converted from SVG, 1000x794",
+        "notes": "Vikings. Red 'GV' monogram. Des Moines, Iowa (gvvikings.com) — not Grand Valley State.",
+        "verified": true
+      },
+      "logoCatalog": "10-team-logos-catalog.docx"
+    },
+    "indiana-tech": {
+      "team": "Indiana Tech",
+      "seed": null,
+      "conference": "WHAC",
+      "file": "logos/indiana-tech.png",
+      "source_url": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/indianatech.sidearmsports.com/images/logos/site/site.png",
+      "verified": true,
+      "format": "Native transparent PNG, 200x175",
+      "notes": "Warriors. Gray/orange Spartan-warrior helmet. Fort Wayne, Ind. (indianatechwarriors.com). Low resolution: 200px is the largest official version on the site.",
+      "id": "indiana-tech",
+      "name": "Indiana Tech",
+      "logoCatalog": "10-team-logos-catalog.docx"
+    },
+    "indiana-wesleyan": {
+      "team": "Indiana Wesleyan",
+      "seed": 4,
+      "conference": "Crossroads",
+      "file": "logos/indiana-wesleyan.png",
+      "source_url": "https://iwuwildcats.com/images/logos/site/site.png",
+      "verified": true,
+      "format": "Converted from WebP to PNG, 200x200",
+      "notes": "Wildcats. Red wildcat head. Marion, Ind. (iwuwildcats.com) — distinct from Indiana Tech (Marion vs Fort Wayne, wildcat vs warrior helmet). Low resolution: 200px is the largest official version on the site.",
+      "id": "indiana-wesleyan",
+      "name": "Indiana Wesleyan",
+      "logoCatalog": "10-team-logos-catalog.docx"
+    },
+    "john-brown": {
+      "team": "John Brown (Ark.)",
+      "seed": null,
+      "conference": "Sooner",
+      "file": "logos/john-brown.png",
+      "id": "john-brown",
+      "name": "John Brown",
+      "wordmarkFile": "logos/john-brown-wordmark.png",
+      "priorLogo": {
+        "source_url": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/jbu.sidearmsports.com/images/responsive_2020/logo-main.svg",
+        "format": "Converted from SVG, 1000x379",
+        "notes": "Golden Eagles. 'GOLDEN EAGLES' wordmark + golden eagle head, blue/gold. Siloam Springs, Ark. (jbuathletics.com).",
+        "verified": true
+      },
+      "logoCatalog": "10-team-logos-catalog.docx"
+    },
+    "keiser": {
+      "team": "Keiser (Fla.)",
+      "seed": null,
+      "conference": "Sun",
+      "file": "logos/keiser.png",
+      "source_url": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/keiser.sidearmsports.com/images/logos/site/site.png",
+      "verified": true,
+      "format": "Native transparent PNG, 1024x1024",
+      "notes": "Seahawks. Navy/light-blue seahawk. West Palm Beach, Fla. (kuseahawks.com). Chosen over the site's logo_main.png (only 129x150).",
+      "id": "keiser",
+      "name": "Keiser",
+      "logoCatalog": "10-team-logos-catalog.docx"
+    },
+    "life": {
+      "team": "Life (Ga.)",
+      "seed": 7,
+      "conference": "Southern States",
+      "file": "logos/life.png",
+      "source_url": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/life.sidearmsports.com/images/responsive_2024/logo_main.svg",
+      "verified": true,
+      "format": "Converted from SVG, 1000x697",
+      "notes": "Running Eagles. Eagle head in Life green/yellow/black. Marietta, Ga. (liferunningeagles.com).",
+      "id": "life",
+      "name": "Life",
+      "logoCatalog": "10-team-logos-catalog.docx"
+    },
+    "lindsey-wilson": {
+      "team": "Lindsey Wilson (Ky.)",
+      "seed": 16,
+      "conference": "Mid-South",
+      "file": "logos/lindsey-wilson.png",
+      "source_url": "https://dbukjj6eu5tsf.cloudfront.net/sidearm.sites/lindseywilsonky.sidearmsports.com/images/responsive_2023/logo_main.svg",
+      "verified": true,
+      "format": "Converted from SVG, 1000x536",
+      "notes": "Blue Raiders. Blue Raider (colonial raider with sword), blue/black. Columbia, Ky. (lindseyathletics.com). School now styles itself Lindsey Wilson University — same institution/site.",
+      "id": "lindsey-wilson",
+      "name": "Lindsey Wilson",
+      "logoCatalog": "10-team-logos-catalog.docx"
+    },
+    "lsu-alexandria": {
+      "team": "LSU Alexandria (La.)",
+      "seed": 10,
+      "conference": "Red River",
+      "file": "logos/lsu-alexandria.png",
+      "source_url": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/lsua.sidearmsports.com/responsive_2022/images/svgs/A_Logo_Purple.svg",
+      "verified": true,
+      "format": "Converted from SVG, 920x843",
+      "notes": "Generals. Purple 'A' with gold star. lsuagenerals.com. Only a 60px transparent margin was added because the official SVG is full-bleed (letterform touches the canvas edges) — no redraw. Distinct from LSU Shreveport (anchor mark).",
+      "id": "lsu-alexandria",
+      "name": "LSU Alexandria",
+      "logoCatalog": "10-team-logos-catalog.docx"
+    },
+    "lsu-shreveport": {
+      "team": "LSU Shreveport (La.)",
+      "seed": null,
+      "conference": "Red River",
+      "file": "logos/lsu-shreveport.png",
+      "source_url": "https://lsusathletics.com/images/assets/PRIMARY_LOGO.png",
+      "verified": true,
+      "format": "Native transparent PNG, 717x800",
+      "notes": "Pilots. Purple/gold anchor with interlocking 'S'. Cross-checked against LSUS's own brand-guidelines page (primary athletics logo = anchor icon). Distinct from LSU Alexandria — lsusathletics.com vs lsuagenerals.com.",
+      "id": "lsu-shreveport",
+      "name": "LSU Shreveport",
+      "logoCatalog": "10-team-logos-catalog.docx"
+    },
+    "marian": {
+      "team": "Marian (Ind.)",
+      "seed": 15,
+      "conference": "Crossroads",
+      "file": "logos/marian.png",
+      "id": "marian",
+      "name": "Marian",
+      "wordmarkFile": "logos/marian-wordmark.png",
+      "priorLogo": {
+        "source_url": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/marianuind.sidearmsports.com/images/responsive_2023/logo-main.svg",
+        "format": "Converted from SVG, 600x619",
+        "notes": "Knights. Circular navy/gold 'MARIAN UNIVERSITY KNIGHTS' seal with armored knight + 'MU' shield. Indianapolis, Ind. (muknights.com) — not Marian University Wisconsin.",
+        "verified": true
+      },
+      "logoCatalog": "10-team-logos-catalog.docx"
+    },
+    "mid-america-christian": {
+      "team": "Mid-America Christian (Okla.)",
+      "seed": 2,
+      "conference": "Sooner",
+      "file": "logos/mid-america-christian.png",
+      "id": "mid-america-christian",
+      "name": "Mid-America Christian",
+      "wordmarkFile": "logos/mid-america-christian-wordmark.png",
+      "priorLogo": {
+        "source_url": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/macuathletics.com/responsive_2019/images/logo_main.svg",
+        "format": "Converted from SVG, 600x390",
+        "notes": "Evangels. Red block 'MACU' wordmark — the athletics header logo (macuathletics.com). Note: a first attempt mistakenly used an Oklahoma Wesleyan ('OKWU') logo from that school's CDN; it was caught on a final source-host audit, deleted, and replaced with MACU's own mark.",
+        "verified": true
+      },
+      "logoCatalog": "10-team-logos-catalog.docx"
+    },
+    "midamerica-nazarene": {
+      "team": "MidAmerica Nazarene (Kan.)",
+      "seed": null,
+      "conference": "Heart",
+      "file": "logos/midamerica-nazarene.png",
+      "source_url": "https://mnusports.com/images/responsive_2020/main.svg",
+      "verified": true,
+      "format": "Converted from SVG, 600x339",
+      "notes": "Pioneers. Red/navy 'MNU' with Pioneer Pete (pioneer head). Spelling confirmed as one word 'MidAmerica' per mnusports.com. Olathe, Kan.",
+      "id": "midamerica-nazarene",
+      "name": "MidAmerica Nazarene",
+      "logoCatalog": "10-team-logos-catalog.docx"
+    },
+    "missouri-valley": {
+      "team": "Missouri Valley",
+      "seed": null,
+      "conference": "Heart",
+      "file": "logos/missouri-valley.png",
+      "source_url": "https://valleywillroll.com/assets/Primary_Logo.png",
+      "verified": true,
+      "format": "Native transparent PNG, 673x799",
+      "notes": "Vikings. Purple/orange 'V' with Viking head. Marshall, Mo. (valleywillroll.com, official athletics site).",
+      "id": "missouri-valley",
+      "name": "Missouri Valley",
+      "logoCatalog": "10-team-logos-catalog.docx"
+    },
+    "oklahoma-wesleyan": {
+      "team": "Oklahoma Wesleyan",
+      "seed": 9,
+      "conference": "KCAC",
+      "file": "logos/oklahoma-wesleyan.png",
+      "id": "oklahoma-wesleyan",
+      "name": "Oklahoma Wesleyan",
+      "wordmarkFile": "logos/oklahoma-wesleyan-wordmark.png",
+      "priorLogo": {
+        "source_url": "https://dbukjj6eu5tsf.cloudfront.net/sidearm.sites/okwesleyanu.sidearmsports.com/images/responsive_2024/logo_main.svg",
+        "format": "Converted from SVG, 600x221",
+        "notes": "Eagles. Eagle-head shield + 'OKWU EAGLES' in navy/gold. Bartlesville, Okla. (okwueagles.com). Navy text is legible on light backgrounds only.",
+        "verified": true
+      },
+      "logoCatalog": "10-team-logos-catalog.docx"
+    },
+    "olivet-nazarene": {
+      "team": "Olivet Nazarene (Ill.)",
+      "seed": 1,
+      "conference": "CCAC",
+      "file": "logos/olivet-nazarene.png",
+      "source_url": "https://onutigers.com/images/setup/tigerhead.png",
+      "verified": true,
+      "format": "Native transparent PNG, 1976x1382",
+      "notes": "Tigers. Purple/gold tiger head over 'ONU' letters. Bourbonnais, Ill. (onutigers.com). The site's other logo file is only the university wordmark, not the athletics mark.",
+      "id": "olivet-nazarene",
+      "name": "Olivet Nazarene",
+      "logoCatalog": "10-team-logos-catalog.docx"
+    },
+    "ottawa": {
+      "team": "Ottawa (Kan.)",
+      "seed": null,
+      "conference": "KCAC",
+      "file": "logos/ottawa.png",
+      "source_url": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/ottawabraves.com/images/responsive_2025/logo_main.svg",
+      "verified": true,
+      "format": "Converted from SVG, 600x600",
+      "notes": "Braves. Interlocking 'OU' on a gold arrowhead. Ottawa, Kan. (ottawabraves.com) — not Ottawa University Arizona / University of Ottawa (Canada).",
+      "id": "ottawa",
+      "name": "Ottawa",
+      "logoCatalog": "10-team-logos-catalog.docx"
+    },
+    "paul-quinn": {
+      "team": "Paul Quinn (Texas)",
+      "seed": null,
+      "conference": "HBCU Athletic",
+      "file": "logos/paul-quinn.png",
+      "source_url": "https://paulquinnathletics.com/images/setup/Primary_Logo_-_1x.png",
+      "verified": true,
+      "format": "Native transparent PNG, 800x570",
+      "notes": "Tigers. Purple/gold/black roaring tiger head. Dallas, Texas (paulquinnathletics.com). Confirmed via the HBCUAC media page listing it as the athletics site.",
+      "id": "paul-quinn",
+      "name": "Paul Quinn",
+      "logoCatalog": "10-team-logos-catalog.docx"
+    },
+    "rio-grande": {
+      "team": "Rio Grande (Ohio)",
+      "seed": 11,
+      "conference": "River States",
+      "file": "logos/rio-grande.png",
+      "source_url": "https://rioredstorm.com/assets/Primary_Logo.png",
+      "verified": true,
+      "format": "Native transparent PNG, 800x620",
+      "notes": "RedStorm. Red hurricane-swirl 'R' mark. Official PrestoSports athletics site (rioredstorm.com), River States.",
+      "id": "rio-grande",
+      "name": "Rio Grande",
+      "logoCatalog": "10-team-logos-catalog.docx"
+    },
+    "rocky-mountain": {
+      "team": "Rocky Mountain (Mont.)",
+      "seed": 8,
+      "conference": "Cascade",
+      "file": "logos/rocky-mountain.png",
+      "source_url": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/rocky.sidearmsports.com/images/logos/site/site.png",
+      "verified": true,
+      "format": "Native transparent PNG, 200x200",
+      "notes": "Battlin' Bears. Gold bear head on a solid green square badge (transparent corners only). Small — 200x200 is the largest version the Sidearm site serves. Billings, Mont. (gobattlinbears.com).",
+      "id": "rocky-mountain",
+      "name": "Rocky Mountain",
+      "logoCatalog": "10-team-logos-catalog.docx"
+    },
+    "stanton": {
+      "team": "Stanton (Calif.)",
+      "seed": null,
+      "conference": "Continental",
+      "file": "logos/stanton.png",
+      "source_url": "https://www.stantonelks.com/images/setup/Primary_Logo_-_.5x-13-.png",
+      "verified": true,
+      "format": "Native transparent PNG, 273x201",
+      "notes": "Fighting Elks. Elk head + 'STANTON' wordmark. Mascot verified from stanton.edu/athletics: the Fighting Elks, mascot is California's Tule elk. Caveat: the wordmark text is white (designed for the site's dark header) — on a light background only the navy elk head is visible.",
+      "id": "stanton",
+      "name": "Stanton",
+      "logoCatalog": "10-team-logos-catalog.docx"
+    },
+    "texas-am-san-antonio": {
+      "team": "Texas A&M–San Antonio",
+      "seed": null,
+      "conference": "Red River",
+      "file": "logos/texas-am-san-antonio.png",
+      "source_url": "https://tamusasports.com/assets/TAMUSA_jaguar_final_01.23.24_-2-.png",
+      "verified": true,
+      "format": "Native transparent PNG, 320x327",
+      "notes": "Jaguars. Black/gray jaguar head, the standalone primary mark. The site's header lockup is a white-text version (2401x600) — the standalone head was used instead so it reads on any background.",
+      "id": "texas-am-san-antonio",
+      "name": "Texas A&M–San Antonio",
+      "logoCatalog": "10-team-logos-catalog.docx"
+    },
+    "the-masters": {
+      "team": "The Master's (Calif.)",
+      "seed": null,
+      "conference": "GSAC",
+      "file": "logos/the-masters.png",
+      "source_url": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/masters.sidearmsports.com/images/logos/site/site.png",
+      "verified": true,
+      "format": "Native transparent PNG, 196x153",
+      "notes": "Mustangs. Navy block 'M' with gold outline — the official athletic M. Small (196x153 is the site's max). The horse-head 'Monty' mark exists in brand guides but is not served as a standalone file on the athletics site.",
+      "id": "the-masters",
+      "name": "The Master's",
+      "logoCatalog": "10-team-logos-catalog.docx"
+    },
+    "truett-mcconnell": {
+      "team": "Truett McConnell (Ga.)",
+      "seed": null,
+      "conference": "Appalachian",
+      "file": "logos/truett-mcconnell.png",
+      "source_url": "https://tmbears.com/images/logos/site/site.png",
+      "verified": true,
+      "format": "Converted from WebP to PNG, 200x200",
+      "notes": "Bears. Gold bear head above 'TMU' in navy/gold. Small — 200x200 is the largest official version on the site.",
+      "id": "truett-mcconnell",
+      "name": "Truett McConnell",
+      "logoCatalog": "10-team-logos-catalog.docx"
+    },
+    "union-commonwealth": {
+      "team": "Union Commonwealth (Ky.)",
+      "seed": null,
+      "conference": "Appalachian",
+      "file": "logos/union-commonwealth.png",
+      "id": "union-commonwealth",
+      "name": "Union Commonwealth",
+      "wordmarkFile": "logos/union-commonwealth-wordmark.png",
+      "priorLogo": {
+        "source_url": "https://gounionbulldogs.com/images/setup/SECONDARY_LOGO_NEW.png",
+        "format": "Native transparent PNG, 3205x754",
+        "notes": "Bulldogs. Orange 'UNION / COMMONWEALTH UNIVERSITY' wordmark — the header logo of the official athletics site. Caveat: this is the university wordmark, not the orange 'U + Bulldogs script' spirit mark; the spirit mark lives only on the PrestoSports CDN, which is Cloudflare-blocked for direct download.",
+        "verified": true
+      },
+      "logoCatalog": "10-team-logos-catalog.docx"
+    },
+    "william-carey": {
+      "team": "William Carey (Miss.)",
+      "seed": 5,
+      "conference": "Southern States",
+      "file": "logos/william-carey.png",
+      "source_url": "https://careyathletics.com/images/logos/site/site.png",
+      "verified": true,
+      "format": "Converted from WebP to PNG, 200x200",
+      "notes": "Crusaders. Knight in red cape holding a shield with cross. Hattiesburg, Miss., SSAC (careyathletics.com). Distinct from William Penn: Carey = Hattiesburg/MS, Crusaders, knight imagery, red/black/white. Small — 200px is the largest official version on the site.",
+      "id": "william-carey",
+      "name": "William Carey",
+      "logoCatalog": "10-team-logos-catalog.docx"
+    },
+    "william-penn": {
+      "team": "William Penn (Iowa)",
+      "seed": 12,
+      "conference": "Heart",
+      "file": "logos/william-penn.png",
+      "source_url": "https://statesmenathletics.com/images/setup/PRIMARY_LOGO2023.png",
+      "verified": true,
+      "format": "Native transparent PNG, 260x223",
+      "notes": "Statesmen. Interlocking navy/gold 'WP' — the 2023 primary logo. Oskaloosa, Iowa, Heart (statesmenathletics.com). Distinct from William Carey: Penn = Oskaloosa/IA, Statesmen, 'WP' monogram, navy/gold.",
+      "id": "william-penn",
+      "name": "William Penn",
+      "logoCatalog": "10-team-logos-catalog.docx"
+    },
+    "wvu-tech": {
+      "team": "WVU Tech",
+      "seed": null,
+      "conference": "River States",
+      "file": "logos/wvu-tech.png",
+      "id": "wvu-tech",
+      "name": "WVU Tech",
+      "wordmarkFile": "logos/wvu-tech-wordmark.png",
+      "priorLogo": {
+        "source_url": "https://dxbhsrqyrr690.cloudfront.net/sidearm.sites/goldenbearathletics.com/images/responsive/logo_main.svg",
+        "format": "Converted from SVG, 884x248",
+        "notes": "Golden Bears. Gold 'Flying WV' + 'TECH' lockup, the site's official header logo (goldenbearathletics.com). Caveats: (1) the site's site.png is only a cropped 'TECH' fragment — unusable, rejected; (2) the 'TECH' text in this lockup is white, so on a light background only the gold WV shows — display on dark or add a dark chip. The blue/gold bear-head mascot mark appears only inside social-media graphics, not as a standalone site asset.",
+        "verified": true
+      },
+      "logoCatalog": "10-team-logos-catalog.docx"
+    }
+  },
+  "sites": [
+    {
+      "city": "Bourbonnais, IL",
+      "venue": "Snowbarger Athletic Complex / Bahr Soccer Complex, Olivet Nazarene University",
+      "zone": "America/Chicago"
+    },
+    {
+      "city": "Oklahoma City, OK",
+      "venue": "Dill Soccer Field",
+      "zone": "America/Chicago"
+    },
+    {
+      "city": "Montgomery, AL",
+      "venue": "Billy D. Hilyer Stadium",
+      "zone": "America/Chicago"
+    },
+    {
+      "city": "Marion, IN",
+      "venue": "IWU Soccer Field",
+      "zone": "America/New_York"
+    },
+    {
+      "city": "Hattiesburg, MS",
+      "venue": "Danny Owens Field",
+      "zone": "America/Chicago"
+    },
+    {
+      "city": "Lebanon, TN",
+      "venue": "Lindsey Donnell Stadium–Kirk Field",
+      "zone": "America/Chicago"
+    },
+    {
+      "city": "Marietta, GA",
+      "venue": "Marathon Soccer Park, Austell, GA",
+      "zone": "America/New_York"
+    },
+    {
+      "city": "Billings, MT",
+      "venue": "Herb Klindt Field",
+      "zone": "America/Denver"
+    },
+    {
+      "city": "Bartlesville, OK",
+      "venue": "OKWU Soccer Complex",
+      "zone": "America/Chicago"
+    },
+    {
+      "city": "Olathe, KS",
+      "venue": "Pioneer Field / Copeland Athletic Complex",
+      "zone": "America/Chicago"
+    },
+    {
+      "city": "Rio Grande, OH",
+      "venue": "Evan E. Davis Field",
+      "zone": "America/New_York"
+    },
+    {
+      "city": "Oskaloosa, IA",
+      "venue": "Drost Field",
+      "zone": "America/Chicago"
+    },
+    {
+      "city": "Des Moines, IA",
+      "venue": "Cownie Sports Complex",
+      "zone": "America/Chicago"
+    },
+    {
+      "city": "Bellevue, NE",
+      "venue": "Renner Dennis Outdoor Athletic Complex",
+      "zone": "America/Chicago"
+    },
+    {
+      "city": "Indianapolis, IN",
+      "venue": "Ascension St. Vincent Field",
+      "zone": "America/New_York"
+    },
+    {
+      "city": "Fort Wayne, IN",
+      "venue": "Warrior Athletic Field",
+      "zone": "America/New_York"
+    },
+    {
+      "city": "Orange Beach, AL",
+      "venue": "Orange Beach Sportsplex",
+      "zone": "America/Chicago"
+    }
+  ],
+  "games": {
+    "F1": {
+      "id": "F1",
+      "round": 1,
+      "slots": [
+        "columbia-mo",
+        "georgia-gwinnett"
+      ],
+      "site": 0,
+      "date": "2026-11-19",
+      "start": "2026-11-19T18:00:00-06:00",
+      "score": null,
+      "penalties": null,
+      "updated": null,
+      "streamUrl": "https://naianetwork.com/",
+      "scorers": [],
+      "gameTime": null
+    },
+    "S1": {
+      "id": "S1",
+      "round": 2,
+      "slots": [
+        "olivet-nazarene",
+        "F1"
+      ],
+      "site": 0,
+      "date": "2026-11-21",
+      "start": "2026-11-21T16:00:00-06:00",
+      "score": null,
+      "penalties": null,
+      "updated": null,
+      "streamUrl": "https://naianetwork.com/",
+      "scorers": [],
+      "gameTime": null
+    },
+    "F2": {
+      "id": "F2",
+      "round": 1,
+      "slots": [
+        "missouri-valley",
+        "texas-am-san-antonio"
+      ],
+      "site": 1,
+      "date": "2026-11-19",
+      "start": "2026-11-19T13:00:00-06:00",
+      "score": null,
+      "penalties": null,
+      "updated": null,
+      "streamUrl": "https://naianetwork.com/",
+      "scorers": [],
+      "gameTime": null
+    },
+    "S2": {
+      "id": "S2",
+      "round": 2,
+      "slots": [
+        "mid-america-christian",
+        "F2"
+      ],
+      "site": 1,
+      "date": "2026-11-21",
+      "start": "2026-11-21T18:00:00-06:00",
+      "score": null,
+      "penalties": null,
+      "updated": null,
+      "streamUrl": "https://naianetwork.com/",
+      "scorers": [],
+      "gameTime": null
+    },
+    "F3": {
+      "id": "F3",
+      "round": 1,
+      "slots": [
+        "union-commonwealth",
+        "wvu-tech"
+      ],
+      "site": 2,
+      "date": "2026-11-19",
+      "start": "2026-11-19T13:00:00-06:00",
+      "score": null,
+      "penalties": null,
+      "updated": null,
+      "streamUrl": "https://naianetwork.com/",
+      "scorers": [],
+      "gameTime": null
+    },
+    "S3": {
+      "id": "S3",
+      "round": 2,
+      "slots": [
+        "faulkner",
+        "F3"
+      ],
+      "site": 2,
+      "date": "2026-11-21",
+      "start": "2026-11-21T13:00:00-06:00",
+      "score": null,
+      "penalties": null,
+      "updated": null,
+      "streamUrl": "https://naianetwork.com/",
+      "scorers": [],
+      "gameTime": null
+    },
+    "F4": {
+      "id": "F4",
+      "round": 1,
+      "slots": [
+        "concordia-neb",
+        "friends"
+      ],
+      "site": 3,
+      "date": "2026-11-19",
+      "start": "2026-11-19T19:00:00-05:00",
+      "score": null,
+      "penalties": null,
+      "updated": null,
+      "streamUrl": "https://naianetwork.com/",
+      "scorers": [],
+      "gameTime": null
+    },
+    "S4": {
+      "id": "S4",
+      "round": 2,
+      "slots": [
+        "indiana-wesleyan",
+        "F4"
+      ],
+      "site": 3,
+      "date": "2026-11-21",
+      "start": "2026-11-21T17:00:00-05:00",
+      "score": null,
+      "penalties": null,
+      "updated": null,
+      "streamUrl": "https://naianetwork.com/",
+      "scorers": [],
+      "gameTime": null
+    },
+    "F5": {
+      "id": "F5",
+      "round": 1,
+      "slots": [
+        "eastern-oregon",
+        "paul-quinn"
+      ],
+      "site": 4,
+      "date": "2026-11-19",
+      "start": "2026-11-19T15:00:00-06:00",
+      "score": null,
+      "penalties": null,
+      "updated": null,
+      "streamUrl": "https://naianetwork.com/",
+      "scorers": [],
+      "gameTime": null
+    },
+    "S5": {
+      "id": "S5",
+      "round": 2,
+      "slots": [
+        "william-carey",
+        "F5"
+      ],
+      "site": 4,
+      "date": "2026-11-21",
+      "start": "2026-11-21T17:00:00-06:00",
+      "score": null,
+      "penalties": null,
+      "updated": null,
+      "streamUrl": "https://naianetwork.com/",
+      "scorers": [],
+      "gameTime": null
+    },
+    "F6": {
+      "id": "F6",
+      "round": 1,
+      "slots": [
+        "benedictine-kan",
+        "truett-mcconnell"
+      ],
+      "site": 5,
+      "date": "2026-11-19",
+      "start": "2026-11-19T12:30:00-06:00",
+      "score": null,
+      "penalties": null,
+      "updated": null,
+      "streamUrl": "https://naianetwork.com/",
+      "scorers": [],
+      "gameTime": null
+    },
+    "S6": {
+      "id": "S6",
+      "round": 2,
+      "slots": [
+        "cumberland-tenn",
+        "F6"
+      ],
+      "site": 5,
+      "date": "2026-11-21",
+      "start": "2026-11-21T12:30:00-06:00",
+      "score": null,
+      "penalties": null,
+      "updated": null,
+      "streamUrl": "https://naianetwork.com/",
+      "scorers": [],
+      "gameTime": null
+    },
+    "F7": {
+      "id": "F7",
+      "round": 1,
+      "slots": [
+        "lsu-shreveport",
+        "the-masters"
+      ],
+      "site": 6,
+      "date": "2026-11-19",
+      "start": "2026-11-19T13:00:00-05:00",
+      "score": null,
+      "penalties": null,
+      "updated": null,
+      "streamUrl": "https://naianetwork.com/",
+      "scorers": [],
+      "gameTime": null
+    },
+    "S7": {
+      "id": "S7",
+      "round": 2,
+      "slots": [
+        "life",
+        "F7"
+      ],
+      "site": 6,
+      "date": "2026-11-21",
+      "start": "2026-11-21T13:00:00-05:00",
+      "score": null,
+      "penalties": null,
+      "updated": null,
+      "streamUrl": "https://naianetwork.com/",
+      "scorers": [],
+      "gameTime": null
+    },
+    "F8": {
+      "id": "F8",
+      "round": 1,
+      "slots": [
+        "dordt",
+        "stanton"
+      ],
+      "site": 7,
+      "date": "2026-11-19",
+      "start": "2026-11-19T17:00:00-07:00",
+      "score": null,
+      "penalties": null,
+      "updated": null,
+      "streamUrl": "https://naianetwork.com/",
+      "scorers": [],
+      "gameTime": null
+    },
+    "S8": {
+      "id": "S8",
+      "round": 2,
+      "slots": [
+        "rocky-mountain",
+        "F8"
+      ],
+      "site": 7,
+      "date": "2026-11-21",
+      "start": "2026-11-21T14:00:00-07:00",
+      "score": null,
+      "penalties": null,
+      "updated": null,
+      "streamUrl": "https://naianetwork.com/",
+      "scorers": [],
+      "gameTime": null
+    },
+    "S9": {
+      "id": "S9",
+      "round": 2,
+      "slots": [
+        "oklahoma-wesleyan",
+        "keiser"
+      ],
+      "site": 8,
+      "date": "2026-11-21",
+      "start": "2026-11-21T16:00:00-06:00",
+      "score": null,
+      "penalties": null,
+      "updated": null,
+      "streamUrl": "https://naianetwork.com/",
+      "scorers": [],
+      "gameTime": null
+    },
+    "S10": {
+      "id": "S10",
+      "round": 2,
+      "slots": [
+        "lsu-alexandria",
+        "midamerica-nazarene"
+      ],
+      "site": 9,
+      "date": "2026-11-21",
+      "start": "2026-11-21T13:00:00-06:00",
+      "score": null,
+      "penalties": null,
+      "updated": null,
+      "streamUrl": "https://naianetwork.com/",
+      "scorers": [],
+      "gameTime": null
+    },
+    "S11": {
+      "id": "S11",
+      "round": 2,
+      "slots": [
+        "rio-grande",
+        "dalton-state"
+      ],
+      "site": 10,
+      "date": "2026-11-21",
+      "start": "2026-11-21T12:00:00-05:00",
+      "score": null,
+      "penalties": null,
+      "updated": null,
+      "streamUrl": "https://naianetwork.com/",
+      "scorers": [],
+      "gameTime": null
+    },
+    "S12": {
+      "id": "S12",
+      "round": 2,
+      "slots": [
+        "william-penn",
+        "ottawa"
+      ],
+      "site": 11,
+      "date": "2026-11-21",
+      "start": "2026-11-21T15:00:00-06:00",
+      "score": null,
+      "penalties": null,
+      "updated": null,
+      "streamUrl": "https://naianetwork.com/",
+      "scorers": [],
+      "gameTime": null
+    },
+    "S13": {
+      "id": "S13",
+      "round": 2,
+      "slots": [
+        "grand-view",
+        "bethel-tenn"
+      ],
+      "site": 12,
+      "date": "2026-11-21",
+      "start": "2026-11-21T12:00:00-06:00",
+      "score": null,
+      "penalties": null,
+      "updated": null,
+      "streamUrl": "https://naianetwork.com/",
+      "scorers": [],
+      "gameTime": null
+    },
+    "S14": {
+      "id": "S14",
+      "round": 2,
+      "slots": [
+        "bellevue",
+        "bethel-ind"
+      ],
+      "site": 13,
+      "date": "2026-11-21",
+      "start": "2026-11-21T14:00:00-06:00",
+      "score": null,
+      "penalties": null,
+      "updated": null,
+      "streamUrl": "https://naianetwork.com/",
+      "scorers": [],
+      "gameTime": null
+    },
+    "S15": {
+      "id": "S15",
+      "round": 2,
+      "slots": [
+        "marian",
+        "john-brown"
+      ],
+      "site": 14,
+      "date": "2026-11-21",
+      "start": "2026-11-21T19:00:00-05:00",
+      "score": null,
+      "penalties": null,
+      "updated": null,
+      "streamUrl": "https://naianetwork.com/",
+      "scorers": [],
+      "gameTime": null
+    },
+    "S16": {
+      "id": "S16",
+      "round": 2,
+      "slots": [
+        "lindsey-wilson",
+        "indiana-tech"
+      ],
+      "site": 15,
+      "date": "2026-11-21",
+      "start": "2026-11-21T17:00:00-05:00",
+      "score": null,
+      "penalties": null,
+      "updated": null,
+      "streamUrl": "https://naianetwork.com/",
+      "scorers": [],
+      "gameTime": null
+    },
+    "R1": {
+      "id": "R1",
+      "round": 3,
+      "slots": [
+        "S1",
+        "S16"
+      ],
+      "site": 16,
+      "date": "2026-11-30",
+      "start": null,
+      "score": null,
+      "penalties": null,
+      "updated": null,
+      "streamUrl": "https://naianetwork.com/",
+      "scorers": [],
+      "gameTime": null
+    },
+    "R8": {
+      "id": "R8",
+      "round": 3,
+      "slots": [
+        "S8",
+        "S9"
+      ],
+      "site": 16,
+      "date": null,
+      "start": null,
+      "score": null,
+      "penalties": null,
+      "updated": null,
+      "streamUrl": "https://naianetwork.com/",
+      "scorers": [],
+      "gameTime": null
+    },
+    "R4": {
+      "id": "R4",
+      "round": 3,
+      "slots": [
+        "S4",
+        "S13"
+      ],
+      "site": 16,
+      "date": null,
+      "start": null,
+      "score": null,
+      "penalties": null,
+      "updated": null,
+      "streamUrl": "https://naianetwork.com/",
+      "scorers": [],
+      "gameTime": null
+    },
+    "R5": {
+      "id": "R5",
+      "round": 3,
+      "slots": [
+        "S5",
+        "S12"
+      ],
+      "site": 16,
+      "date": null,
+      "start": null,
+      "score": null,
+      "penalties": null,
+      "updated": null,
+      "streamUrl": "https://naianetwork.com/",
+      "scorers": [],
+      "gameTime": null
+    },
+    "R2": {
+      "id": "R2",
+      "round": 3,
+      "slots": [
+        "S2",
+        "S15"
+      ],
+      "site": 16,
+      "date": null,
+      "start": null,
+      "score": null,
+      "penalties": null,
+      "updated": null,
+      "streamUrl": "https://naianetwork.com/",
+      "scorers": [],
+      "gameTime": null
+    },
+    "R7": {
+      "id": "R7",
+      "round": 3,
+      "slots": [
+        "S7",
+        "S10"
+      ],
+      "site": 16,
+      "date": null,
+      "start": null,
+      "score": null,
+      "penalties": null,
+      "updated": null,
+      "streamUrl": "https://naianetwork.com/",
+      "scorers": [],
+      "gameTime": null
+    },
+    "R3": {
+      "id": "R3",
+      "round": 3,
+      "slots": [
+        "S3",
+        "S14"
+      ],
+      "site": 16,
+      "date": "2026-12-01",
+      "start": null,
+      "score": null,
+      "penalties": null,
+      "updated": null,
+      "streamUrl": "https://naianetwork.com/",
+      "scorers": [],
+      "gameTime": null
+    },
+    "R6": {
+      "id": "R6",
+      "round": 3,
+      "slots": [
+        "S6",
+        "S11"
+      ],
+      "site": 16,
+      "date": null,
+      "start": null,
+      "score": null,
+      "penalties": null,
+      "updated": null,
+      "streamUrl": "https://naianetwork.com/",
+      "scorers": [],
+      "gameTime": null
+    },
+    "Q1": {
+      "id": "Q1",
+      "round": 4,
+      "slots": [
+        "R1",
+        "R8"
+      ],
+      "site": 16,
+      "date": null,
+      "start": null,
+      "score": null,
+      "penalties": null,
+      "updated": null,
+      "streamUrl": "https://naianetwork.com/",
+      "scorers": [],
+      "gameTime": null
+    },
+    "Q2": {
+      "id": "Q2",
+      "round": 4,
+      "slots": [
+        "R4",
+        "R5"
+      ],
+      "site": 16,
+      "date": null,
+      "start": null,
+      "score": null,
+      "penalties": null,
+      "updated": null,
+      "streamUrl": "https://naianetwork.com/",
+      "scorers": [],
+      "gameTime": null
+    },
+    "Q3": {
+      "id": "Q3",
+      "round": 4,
+      "slots": [
+        "R2",
+        "R7"
+      ],
+      "site": 16,
+      "date": null,
+      "start": null,
+      "score": null,
+      "penalties": null,
+      "updated": null,
+      "streamUrl": "https://naianetwork.com/",
+      "scorers": [],
+      "gameTime": null
+    },
+    "Q4": {
+      "id": "Q4",
+      "round": 4,
+      "slots": [
+        "R3",
+        "R6"
+      ],
+      "site": 16,
+      "date": null,
+      "start": null,
+      "score": null,
+      "penalties": null,
+      "updated": null,
+      "streamUrl": "https://naianetwork.com/",
+      "scorers": [],
+      "gameTime": null
+    },
+    "H1": {
+      "id": "H1",
+      "round": 5,
+      "slots": [
+        "Q1",
+        "Q2"
+      ],
+      "site": 16,
+      "date": "2026-12-05",
+      "start": null,
+      "score": null,
+      "penalties": null,
+      "updated": null,
+      "streamUrl": "https://naianetwork.com/",
+      "scorers": [],
+      "gameTime": null
+    },
+    "H2": {
+      "id": "H2",
+      "round": 5,
+      "slots": [
+        "Q3",
+        "Q4"
+      ],
+      "site": 16,
+      "date": "2026-12-05",
+      "start": null,
+      "score": null,
+      "penalties": null,
+      "updated": null,
+      "streamUrl": "https://naianetwork.com/",
+      "scorers": [],
+      "gameTime": null
+    },
+    "C": {
+      "id": "C",
+      "round": 6,
+      "slots": [
+        "H1",
+        "H2"
+      ],
+      "site": 16,
+      "date": "2026-12-07",
+      "start": null,
+      "score": null,
+      "penalties": null,
+      "updated": null,
+      "streamUrl": "https://naianetwork.com/",
+      "scorers": [],
+      "gameTime": null
+    }
+  }
+}

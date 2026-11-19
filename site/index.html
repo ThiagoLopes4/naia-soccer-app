@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#3a2253" />
+    <title>Dashboard | Road to Orange Beach · Name TBD</title>
+    <link rel="icon" href="assets/ball.png" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <svg aria-hidden="true" width="0" height="0" style="position:absolute;pointer-events:none"><defs><filter id="programme-palette" color-interpolation-filters="sRGB"><feColorMatrix type="matrix" values="-1.776148 9.456359 -8.232699 0.000000 -0.297286 -1.547202 7.900349 -6.513806 0.000000 -0.370767 -0.177894 -0.282257 1.412470 0.000000 0.133208 0 0 0 1 0"/></filter></defs></svg>
+    <header>
+      <div class="mast">
+        <a class="brand" href="#dashboard"
+          ><img src="assets/ball.png" width="33" height="33" alt="" /><span
+            >Road to Orange Beach <small>· Name TBD</small></span
+          ></a
+        >
+        <nav aria-label="Main navigation">
+          <a href="#dashboard">Dashboard</a><a href="#bracket">Bracket</a><a href="#pods">Pods</a
+          ><a href="#rounds">Round by Round</a><a href="#teams">All Teams</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <img class="hero-art" src="assets/coast.png" alt="" />
+        <div class="hero-text">
+          <div class="eyebrow">
+            <i></i> NAIA MEN’S SOCCER &nbsp; / &nbsp; 2026
+          </div>
+          <h1 id="heading">Tournament dashboard</h1>
+          <div class="hero-line">
+            <span>November 19 – December 7, 2026</span><b>/</b
+            ><span>Orange Beach, AL</span>
+          </div>
+        </div>
+      </section>
+      <div class="facts">
+        <span><strong>40</strong> Teams</span
+        ><span><strong>18</strong> Conferences</span
+        ><span><strong>16</strong> Campus hosts</span
+        ><span><strong>6</strong> Rounds</span>
+      </div>
+      <div id="content" aria-live="polite">Loading the draw…</div>
+    </main>
+    <footer>
+      <span>2026 Men's Soccer National Championship</span
+      ><span>Orange Beach, Alabama</span>
+    </footer>
+    <dialog id="detail" aria-labelledby="detailTitle">
+      <div id="details"></div>
+      <button
+        class="close"
+        aria-label="Close game details"
+        onclick="this.closest('dialog').close()"
+      >
+        ×
+      </button>
+    </dialog>
+  </body>
+</html>
