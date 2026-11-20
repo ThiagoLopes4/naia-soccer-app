@@ -661,12 +661,17 @@
       "site": 0,
       "date": "2026-11-19",
       "start": "2026-11-19T18:00:00-06:00",
-      "score": null,
+      "score": [
+        1,
+        2
+      ],
       "penalties": null,
-      "updated": null,
+      "updated": "2026-11-20T04:30:58.142464+00:00",
       "streamUrl": "https://naianetwork.com/",
       "scorers": [],
-      "gameTime": null
+      "gameTime": null,
+      "overtime": false,
+      "source": "NAIA national scoreboard"
     },
     "S1": {
       "id": "S1",
@@ -776,12 +781,17 @@
       "site": 3,
       "date": "2026-11-19",
       "start": "2026-11-19T19:00:00-05:00",
-      "score": null,
+      "score": [
+        1,
+        0
+      ],
       "penalties": null,
-      "updated": null,
+      "updated": "2026-11-20T04:30:58.142471+00:00",
       "streamUrl": "https://naianetwork.com/",
       "scorers": [],
-      "gameTime": null
+      "gameTime": null,
+      "overtime": false,
+      "source": "NAIA national scoreboard"
     },
     "S4": {
       "id": "S4",
@@ -930,12 +940,17 @@
       "site": 7,
       "date": "2026-11-19",
       "start": "2026-11-19T17:00:00-07:00",
-      "score": null,
+      "score": [
+        3,
+        1
+      ],
       "penalties": null,
-      "updated": null,
+      "updated": "2026-11-20T04:30:58.142440+00:00",
       "streamUrl": "https://naianetwork.com/",
       "scorers": [],
-      "gameTime": null
+      "gameTime": null,
+      "overtime": false,
+      "source": "NAIA national scoreboard"
     },
     "S8": {
       "id": "S8",
