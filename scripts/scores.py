@@ -160,7 +160,11 @@ def national_events(day):
     page = 1
     while True:
         query = urllib.parse.urlencode(dict(sport="Men's Soccer", day=day, page=page, per_page=16))
-        with urllib.request.urlopen(SCOREBOARD + "?" + query, timeout=25) as response:
+        # A five-minute key is shared by all retries in the same polling interval.
+        bucket = int(datetime.now(timezone.utc).timestamp()) // 300
+        request = urllib.request.Request(f"{SCOREBOARD}?{query}&_={bucket}",
+                                         headers={"Cache-Control": "no-cache"})
+        with urllib.request.urlopen(request, timeout=25) as response:
             payload = json.load(response)
         if (payload.get("sport") != "Men's Soccer" or payload.get("day") != day
                 or payload.get("page") != page or not isinstance(payload.get("events"), list)
@@ -216,6 +220,10 @@ def national_results(data, day, events):
             score = [int(v) for v in values]
             if winner(data, data["games"][gid]["slots"][0]) != ids[0]:
                 score.reverse()
+            game = data["games"][gid]
+            if game.get("source") == "manual" and game["score"] == score and label == "Final":
+                # The national summary omits shootouts and sometimes overtime.
+                continue
             apply(data, gid, score, None, overtime=label != "Final", source="NAIA national scoreboard")
         except ValueError as exc:
             issues.append(f"{day} {gid}: {exc}")

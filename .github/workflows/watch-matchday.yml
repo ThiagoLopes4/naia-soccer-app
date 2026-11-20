@@ -1,0 +1,26 @@
+name: Watch matchday scores
+on:
+  workflow_dispatch:
+  schedule:
+    # UTC; start another bounded session if the previous one has finished.
+    - cron: '17 0-5,13-23 19-22,30 11 *'
+    - cron: '17 0-5,13-23 1-8 12 *'
+concurrency:
+  group: tournament-matchday-watch
+  cancel-in-progress: false
+permissions:
+  contents: read
+  actions: write
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 250
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Check open matches every five minutes
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PYTHONDONTWRITEBYTECODE: '1'
+        run: python3 scripts/watch_matchday.py
