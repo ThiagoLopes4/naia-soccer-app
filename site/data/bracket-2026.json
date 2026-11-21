@@ -994,12 +994,17 @@
       "site": 8,
       "date": "2026-11-21",
       "start": "2026-11-21T16:00:00-06:00",
-      "score": null,
+      "score": [
+        3,
+        1
+      ],
       "penalties": null,
-      "updated": null,
+      "updated": "2026-11-21T23:18:18.949475+00:00",
       "streamUrl": "https://naianetwork.com/",
       "scorers": [],
-      "gameTime": null
+      "gameTime": null,
+      "overtime": false,
+      "source": "NAIA national scoreboard"
     },
     "S10": {
       "id": "S10",
