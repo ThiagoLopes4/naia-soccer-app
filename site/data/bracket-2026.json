@@ -884,12 +884,17 @@
       "site": 5,
       "date": "2026-11-21",
       "start": "2026-11-21T12:30:00-06:00",
-      "score": null,
+      "score": [
+        0,
+        2
+      ],
       "penalties": null,
-      "updated": null,
+      "updated": "2026-11-21T20:53:20.259794+00:00",
       "streamUrl": "https://naianetwork.com/",
       "scorers": [],
-      "gameTime": null
+      "gameTime": null,
+      "overtime": false,
+      "source": "NAIA national scoreboard"
     },
     "F7": {
       "id": "F7",
