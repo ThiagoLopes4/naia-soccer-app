@@ -1146,12 +1146,17 @@
       "site": 14,
       "date": "2026-11-21",
       "start": "2026-11-21T19:00:00-05:00",
-      "score": null,
+      "score": [
+        3,
+        1
+      ],
       "penalties": null,
-      "updated": null,
+      "updated": "2026-11-22T03:12:41.035462+00:00",
       "streamUrl": "https://naianetwork.com/",
       "scorers": [],
-      "gameTime": null
+      "gameTime": null,
+      "overtime": false,
+      "source": "NAIA national scoreboard"
     },
     "S16": {
       "id": "S16",
